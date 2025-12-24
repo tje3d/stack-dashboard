@@ -166,15 +166,6 @@ Contributions are welcome! Please follow these steps:
 - Add TypeScript types for new props/interfaces
 - Test across different screen sizes (responsive design)
 
-## Roadmap
-
-- [ ] Dark mode toggle
-- [ ] Additional chart types
-- [ ] Real-time data updates via WebSockets
-- [ ] Export functionality for analytics
-- [ ] Internationalization (i18n)
-- [ ] Comprehensive testing suite
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
