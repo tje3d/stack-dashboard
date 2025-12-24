@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STACK | Open Source Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Space Grotesk"', 'sans-serif'],
+              mono: ['"Space Mono"', 'monospace'],
+            },
+            colors: {
+              neo: {
+                yellow: '#FFE66D',
+                red: '#FF6B6B',
+                blue: '#4ECDC4',
+                darkBlue: '#4D96FF',
+                green: '#95E1D3',
+                purple: '#A06CD5',
+                pink: '#FF9FF3',
+                black: '#181818',
+                white: '#FFFFFF',
+                bg: '#F7F9FC'
+              }
+            },
+            boxShadow: {
+              'neo': '4px 4px 0px 0px #181818',
+              'neo-sm': '2px 2px 0px 0px #181818',
+              'neo-lg': '8px 8px 0px 0px #181818',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Space Grotesk', sans-serif;
+        background-color: #F7F9FC;
+        background-image: radial-gradient(#181818 1px, transparent 1px);
+        background-size: 24px 24px;
+      }
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #ffffff;
+        border-left: 2px solid #181818;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #FF6B6B;
+        border: 2px solid #181818;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #FF4757;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "recharts": "https://esm.sh/recharts@^3.6.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-neo-bg text-neo-black antialiased overflow-hidden">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
