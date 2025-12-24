@@ -84,6 +84,7 @@ Perfect as a starting point for admin dashboards, business tools, or as a refere
 | [React 19](https://react.dev/) | UI Framework |
 | [TypeScript](https://www.typescriptlang.org/) | Type Safety |
 | [Vite](https://vitejs.dev/) | Build Tool |
+| [Bun](https://bun.sh/) | Package Manager & Runtime |
 | [Tailwind CSS](https://tailwindcss.com/) | Styling (CDN) |
 | [Recharts](https://recharts.org/) | Data Visualization |
 | [Lucide React](https://lucide.dev/) | Icon Library |
@@ -91,8 +92,7 @@ Perfect as a starting point for admin dashboards, business tools, or as a refere
 ## Installation
 
 ### Prerequisites
-- Node.js 18+
-- npm or yarn
+- [Bun](https://bun.sh/) (recommended) or Node.js 18+
 
 ### Steps
 
@@ -104,12 +104,14 @@ Perfect as a starting point for admin dashboards, business tools, or as a refere
 
 2. **Install dependencies**
    ```bash
-   npm install
+   bun install
+   # or with npm: npm install
    ```
 
 3. **Run the development server**
    ```bash
-   npm run dev
+   bun run dev
+   # or with npm: npm run dev
    ```
 
    Open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -142,12 +144,14 @@ STACK uses a custom neo-brutalist design language defined in `index.html`:
 ## Building for Production
 
 ```bash
-npm run build
+bun run build
+# or with npm: npm run build
 ```
 
 Preview the production build:
 ```bash
-npm run preview
+bun run preview
+# or with npm: npm run preview
 ```
 
 ## Contributing
