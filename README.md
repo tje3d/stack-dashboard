@@ -8,7 +8,7 @@
   [![Vite](https://img.shields.io/badge/Vite-6.2-purple?logo=vite)](https://vitejs.dev/)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-  [Features](#-features) &bull; [Demo](#-demo) &bull; [Installation](#-installation) &bull; [Contributing](#-contributing)
+  [Features](#features) &bull; [Demo](#demo) &bull; [Installation](#installation) &bull; [Contributing](#contributing)
 </div>
 
 ---
@@ -18,6 +18,10 @@
 STACK Dashboard is a feature-rich, single-page application built with React 19, TypeScript, and Vite. It showcases a distinctive neo-brutalist design system with 19+ fully functional page components and real-time analytics.
 
 Perfect as a starting point for admin dashboards, business tools, or as a reference implementation for modern React patterns.
+
+## Demo
+
+🚀 **Live Demo:** [https://tje3d.github.io/stack-dashboard/](https://tje3d.github.io/stack-dashboard/)
 
 ## Screenshots
 
