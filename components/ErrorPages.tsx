@@ -41,9 +41,9 @@ export const ServerErrorPage: React.FC<ErrorPageProps> = ({ onGoHome }) => {
        <div className="bg-white text-neo-black px-2 py-0 font-mono font-bold text-xl mb-8">ERROR CODE: 500</div>
        
        <div className="font-mono text-sm max-w-lg mb-8 opacity-80 border-l-2 border-neo-red pl-4 text-left bg-white/5 p-4">
-          > Initiating recovery protocol...<br/>
-          > Checking server status... [FAILED]<br/>
-          > The server encountered an internal error and was unable to complete your request.
+          &gt; Initiating recovery protocol...<br/>
+          &gt; Checking server status... [FAILED]<br/>
+          &gt; The server encountered an internal error and was unable to complete your request.
        </div>
  
        <div className="flex gap-4">
